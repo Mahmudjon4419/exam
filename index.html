@@ -20,10 +20,14 @@
                         img1: '407px',
                     },
                     width: {
-                        wig: '408px',
+                        wig: '500px',
                         wiz: '267px',
                         widt: '251px',
                         wis: '601px',
+                        wir: '450px',
+                        did: '750px',
+                        rasm: '80px',
+                        aav: '95%',
                     }
                 }
             }
@@ -36,11 +40,11 @@
 
     <nav class="bg-neu">
 
-        <div class="w-10/12 mx-auto py-5 flex justify-between">
+        <div class="w-10/12  mx-auto py-5 flex justify-between">
             <div class="py-2">
                 <img src="./Logo-13.png" alt="">
             </div>
-            <div class="py-2 font-normal text-base">
+            <div class="py-2 font-normal max-sm:hidden sm:hidden text-base">
                 <ul class="flex gap-6">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Service</a></li>
@@ -58,18 +62,19 @@
     </nav>
 
     <main>
-
-        <section class="bg-neu">
+        
+        <section>
+           <div class="bg-neu">
             <div class="w-4/5 mx-auto pt-28 pb-28">
-                <div class="flex gap-10  justify-between">
-                    <div class="justify-center flex flex-col gap-6 max-w-2xl">
+                <div class="flex gap-10 max-sm:flex-col max-sm:items-center sm:items-center sm:max-lg:flex-col justify-between">
+                    <div class="justify-center flex flex-col gap-6 max-sm:text-center max-md:text-center max-w-2xl">
                         <div class="flex flex-col gap-6">
                             <h1 class="text-greey text-7xl font-semibold leading18">Lessons and insights <span
                                     class="text-green-600">from 8 years</span></h1>
                             <p class="text-base font-normal text-graay">Where to grow your business as a photographer:
                                 site or social media?</p>
                         </div>
-                        <div>
+                        <div class="max-sm:w-full">
                             <a href="#" class="bg-green-500 px-4 py-2 rounded-xl cursor-pointer">Register</a>
                         </div>
                     </div>
@@ -78,6 +83,7 @@
                     </div>
                 </div>
             </div>
+           </div>
         </section>
 
         <section>
@@ -107,7 +113,7 @@
             </div>
 
             <div class="w-4/5 mx-auto mt-12">
-                <div class="flex justify-between">
+                <div class="flex justify-between sm:flex-col md:flex-col max-sm:gap-4 max-md:flex-col lg:flex-row sm:gap-4 ">
                     <div class="px-4 py-5 border-solid border-2 rounded-xl border-slate-200 ">
                         <div class="flex flex-col items-center">
                             <img src="./Icon.png" alt="">
@@ -142,16 +148,16 @@
         </section>
 
         <section>
-            <div class="w-4/5 mx-auto mt-16">
-                <div class="flex justify-between px-36 gap-2">
+            <div class="w-3/4 mx-auto max-lg:mt-0 mt-16">
+                <div class="flex w-full justify-between pr-10 max-lg:px-10 max-xl:text-center max-xl:items-center max-xl:flex-col gap-2">
                     <div>
                         <img src="./Frame 35.png" alt="">
                     </div>
-                    <div class="justify-center flex flex-col">
+                    <div class="max-lg:items-center  justify-center flex flex-col">
                         <div>
-                            <h1 class="text-4xl font-semibold w-wis text-left text-greey">The unseen of spending three
+                            <h1 class="text-4xl font-semibold mx-auto w-wis max-lg:w-wir max-xl:text-center text-left text-greey">The unseen of spending three
                                 years at Pixelgrade</h1>
-                            <p class="text-sm text-graay font-normal w-wis mt-4">Lorem ipsum dolor sit amet, consectetur
+                            <p class="text-sm text-graay max-lg:text-center max-lg:w-wig max-lg:items-center font-normal w-wig mt-4">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
                                 Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis.
                                 Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam
@@ -167,17 +173,17 @@
         </section>
 
         <section>
-            <div class="w-full bg-sl-500 py-6 pb-20 bg-neu">
-                <div class="w-4/5 mx-auto mt-16 flex justify-between px-36">
+            <div class="w-full py-16 px-4 bg-neu mt-16">
+                <div class="w-10/12 mx-auto flex max-lg:text-center gap-10 max-lg:flex-col max-lg:px-0  justify-between xl:px-20">
                     <div class="flex justify-center items-center">
                         <div class="flex flex-col gap-2">
-                            <h1 class="text-4xl font-semibold w-wig text-left">Helping a local <span
+                            <h1 class="text-5xl font-semibold w-wig max-lg:text-center text-left">Helping a local <span
                                     class="text-green-600">business reinvent itself</span></h1>
-                            <p class="font-normal text-base">We reached here with our hard work and dedication</p>
+                            <p class="font-normal text-base text-sm">We reached here with our hard work and dedication</p>
                         </div>
                     </div>
-                    <div class="gap-6 flex flex-col">
-                        <div class="flex gap-16">
+                    <div class="gap-6 max-lg:items-center flex flex-col">
+                        <div class="flex gap-6 max-lg:gap-6">
                             <div class="flex gap-2 items-center">
                                 <div>
                                 <img src="./Icon-1.png" alt="">
@@ -197,7 +203,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex gap-16">
+                        <div class="flex gap-6 max-lg:gap-6" >
                             <div class="flex gap-2 items-center">
                                 <div>
                                 <img src="./Icon-1.png" alt="">
@@ -224,32 +230,30 @@
         </section>
 
          <section>
-    <div class="flex gap-8 w-4/5 mx-auto mt-36">
-        <img src="./pana.png" alt="">
+            <div class="flex max-lg:flex-col gap-8 w-4/5 mx-auto max-lg:mt-10 mt-36">
+                <img src="./pana.png" alt="">
 
-        <div class="py-12">
-            <h1 class="text-5xl text-gray-700 font-semibold">How to design your site footer like we did</h1>
+                <div class="py-12 max-lg:mt-0 max-lg:text-center">
+                    <h1 class="text-5xl text-gray-700 font-semibold">How to design your site footer like we did</h1>
 
-            <p class="text-xl text-gray-500 mt-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum libero aut nemo illo facilis. Reiciendis
-                ab ratione dignissimos nihil, a quod exercitationem consequuntur! Possimus non illo molestias eaque
-                eligendi. Laborum, nihil obcaecati sapiente assumenda illo beatae a, sint et magni eveniet natus! Totam
-                quis porro praesentium inventore blanditiis eos molestias.
-            </p>
+                    <p class="text-xl text-gray-500 mt-8">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum libero aut nemo illo facilis. Reiciendis
+                    ab ratione dignissimos nihil, a quod exercitationem consequuntur! Possimus non illo molestias eaque
+                    eligendi. Laborum, nihil obcaecati sapiente assumenda illo beatae a, sint et magni eveniet natus! Totam
+                    quis porro praesentium inventore blanditiis eos molestias.
+                    </p>
 
-            <button type="button"
-                class="py-4 px-5 mt-8 bg-green-500 text-white text-xl font-semibold rounded hover:bg-green-600 transition">Learn
-                More</button>
-        </div>
-    </div>
+                    <button type="button" class="py-4 px-5 mt-8 bg-green-500 text-white text-xl font-semibold rounded hover:bg-green-600 transition">Learn More</button>
+                </div>
+            </div>
          </section>
 
          <section>
-                <div class="bg-slate-100 py-8 mt-20">
-                    <div class="flex justify-between gap-16 container mx-auto">
-                        <img src="./image 9.png" alt="" class="w-full h-96">
-
-                        <div>
+             <div class="bg-slate-100 py-8 max-lg:mt-0 mt-20">
+                 <div class="flex w-4/5 max-lg:flex-col max-lg:gap-0 justify-between gap-16 container mx-auto">
+             <img src="./image 9.png" alt="">
+                 
+                        <div class="max-lg:text-center">
                             <p class="text-xl text-gray-500">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dolores voluptatum! Corrupti
                                 possimus illo quas assumenda perspiciatis temporibus inventore maxime quae at quaerat aspernatur
@@ -268,15 +272,19 @@
                                 Lorem ipsum dolor sit amet.
                             </p>
 
-                            <div class="flex justify-between mt-5">
+                            <div class="flex max-lg:flex-col gap-8 items-center justify-between mt-5">
+                               <div class="flex max-lg:gap-8 gap-14" >
                                 <img src="./Logo-7.png" alt="">
                                 <img src="./Logo-8.png" alt="">
                                 <img src="./Logo-8.png" alt="">
                                 <img src="./Logo-9.png" alt="">
                                 <img src="./Logo-10.png" alt="">
                                 <img src="./Logo-11.png" alt="">
+                               </div>
 
+                                <div class="max-lg:mt-4">
                                 <h1><a href="#" class="text-green-500 text-2xl font-semibold">Meet all customers ></a></h1>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -284,53 +292,66 @@
          </section>
 
         <section>
-                <h1 class="text-center text-5xl text-gray-700 font-semibold mt-20 mx-auto w-1/3">
+                <h1 class="text-center text-5xl text-gray-700 font-semibold mt-20 mx-auto max-lg:q-wig">
                     Caring is the new marketing
                 </h1>
-                <p class="text-center text-xl text-gray-500 mt-8 w-1/3 mx-auto">
+                <p class="text-center max-lg:mt-4 text-xl text-gray-500 mt-8 w-did max-lg:w-wig mx-auto">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores quisquam iusto eos, nesciunt veniam,
                     distinctio excepturi expedita est provident ab! Perferendis pariatur sunt ea consequatur ullam quia enim natus.
                 </p>
 
-                <div class="flex justify-center gap-8 mt-20 w-4/5 mx-auto">
-                    <div class="relative">
-                        <img src="./image 18.png" alt="">
-                        <div class="p-4 rounded-lg shadow-lg shadow-blue-200 w-80 absolute -bottom-36 left-6 bg-slate-50">
+                <div class="flex max-lg:flex-col max-lg:gap-16 justify-center gap-8 mt-20 w-4/5 mx-auto">
+                    <div class="relative max-lg:flex">
+                        <img src="./image 18.png" alt="" class="max-w-80 w-full">
+                    <div class="p-4 flex rounded-lg shadow-lg max-lg:shadow-none shadow-blue-200 items-center text-center max-w-80 max-lg:static absolute -bottom-36 left-4 right-4 bg-slate-50">
+                        <div class="">
                             <h1 class="text-2xl text-gray-500 font-semibold mb-3 text-center">Lorem ipsum dolor sit amet consectetur
                                 adipisicing
                                 elit. Debitis,
                                 alias.</h1>
                             <h1><a href="#" class="mx-16 text-green-500 text-2xl font-semibold text-center">Readmore ></a></h1>
                         </div>
+                        </div>
                     </div>
 
-                    <div class="relative">
-                        <img src="./image 19.png" alt="">
-
-                        <div class="p-4 rounded-lg shadow-lg shadow-blue-200 w-80 absolute -bottom-36 left-6 bg-slate-50">
+                    <div class="relative max-lg:flex">
+                        <img src="./image 19.png" alt="" class="max-w-80 w-full">
+                    <div class="p-4 flex rounded-lg shadow-lg max-lg:shadow-none shadow-blue-200 items-center text-center max-w-80 max-lg:static absolute -bottom-36 left-4 right-4 bg-slate-50">
+                        <div class="">
                             <h1 class="text-2xl text-gray-500 font-semibold mb-3 text-center">Lorem ipsum dolor sit amet consectetur
                                 adipisicing
                                 elit. Debitis,
                                 alias.</h1>
                             <h1><a href="#" class="mx-16 text-green-500 text-2xl font-semibold text-center">Readmore ></a></h1>
                         </div>
+                        </div>
                     </div>
 
-                    <div class="relative">
-                        <img src="./image 20.png" alt="">
-
-                        <div class="p-4 rounded-lg shadow-lg shadow-blue-200 w-80 absolute -bottom-36 left-6 bg-slate-50">
+                    
+                    <div class="relative max-lg:flex">
+                        <img src="./image 20.png" alt="" class="max-w-80 w-full">
+                    <div class="p-4 flex rounded-lg shadow-lg max-lg:shadow-none shadow-blue-200 items-center text-center max-w-80 max-lg:static absolute -bottom-36 left-4 right-4 bg-slate-50">
+                        <div class="">
                             <h1 class="text-2xl text-gray-500 font-semibold mb-3 text-center">Lorem ipsum dolor sit amet consectetur
                                 adipisicing
                                 elit. Debitis,
                                 alias.</h1>
                             <h1><a href="#" class="mx-16 text-green-500 text-2xl font-semibold text-center">Readmore ></a></h1>
+                        </div>
                         </div>
                     </div>
                 </div>
         </section>
 
 
+        
+
+        
+
+      
+    </main>
+
+    <footer>
         <section>
             <div class="bg-slate-100 py-12 mt-52">
                 <h1 class="text-7xl text-slate-700 text-center font-semibold">Lorem ipsum dolor sit amet.</h1>
@@ -341,66 +362,64 @@
             </div>
            </div>    
         </section>
-
         
-
-        <footer>
-            <section>
-                <div class="py-24 bg-uzz">
-                    <div class="w-4/5 mx-auto flex justify-between">
-                        <div class="flex flex-col">
-                            <div>
-                                <img class="aspect-ratio" src="./Logo.png"  alt="">
-                            </div>
-                            <div class="gap-2 mt-12 flex flex-col">
-                            <span class="text-sm font-normal text-neu">Copyright © 2020 Nexcent ltd.</span>
-                            <span class="text-sm font-normal text-neu">All rights reserved</span>
-                            </div>
-                            <div class="gap-4 mt-8">
-                                <i class="p-2 bg-slate-300 rounded-full mt-2 text-xl px-3 cursor-pointer fa-brands fa-instagram"></i>
-                                <i class="p-2 bg-slate-300 rounded-full mt-2 text-xl px-3 cursor-pointer fa-solid fa-globe"></i>
-                                <i class="p-2 bg-slate-300 rounded-full mt-2 text-xl px-3 cursor-pointer fa-brands fa-twitter"></i>
-                                <i class="p-2 bg-slate-300 rounded-full mt-2 text-xl px-3 cursor-pointer fa-brands fa-youtube"></i>
-                            </div>
+        <section>
+            <div class="py-24 bg-uzz">
+                <div class="w-4/5 mx-auto max-lg:flex-col flex justify-between">
+                    <div class="flex flex-col max-lg:w-4/5 max-lg:items-center  max-lg:mx-auto">
+                        <div>
+                            <img class="a" src="./Logo.png"  alt="">
                         </div>
-                        <div class="flex gap-20">
-                            <div class="flex gap-10">
-                                <div class="flex flex-col -mt-2 ">
-                                    <h1 class="text-4xl font-semibold text-white">Company</h1>
-                                    <ul class="flex flex-col mt-4 gap-1 text-xl">
-                                        <li><a href="#" class="text-neu">About us</a></li>
-                                        <li><a href="#" class="text-neu">Blog</a></li>
-                                        <li><a href="#" class="text-neu">Contact us</a></li>
-                                        <li><a href="#" class="text-neu">Pricing</a></li>
-                                        <li><a href="#" class="text-neu">Testimonial</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                            <div class="flex gap-10">
-                                <div class="flex flex-col -mt-2 ">
-                                    <h1 class="text-4xl font-semibold text-white">Support</h1>
-                                    <ul class="flex flex-col mt-4 gap-1 text-xl">
-                                        <li><a href="#" class="text-neu">About us</a></li>
-                                        <li><a href="#" class="text-neu">Blog</a></li>
-                                        <li><a href="#" class="text-neu">Contact us</a></li>
-                                        <li><a href="#" class="text-neu">Pricing</a></li>
-                                        <li><a href="#" class="text-neu">Testimonial</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="flex-col flex -mt-2">
-                                <h1 class="text-4xl font-semibold text-white">Stay up date</h1>
-                                <input type="email" placeholder="Your email adress" class="mt-6 px-4 bg-graay rounded-xl py-3">
-                            </div>
-
+                        <div class="gap-2  mt-12 max-lg:mt-4 flex flex-col max-lg:flex-row">
+                        <span class="text-sm font-normal text-neu">Copyright © 2020 Nexcent ltd.</span>
+                        <span class="text-sm font-normal text-neu">All rights reserved</span>
+                        </div>
+                        <div class="gap-4 max-lg:gap-12 mt-8 max-lg:mt-4 flex">
+                            <i class="p-2 bg-slate-300 rounded-full mt-2 text-xl px-3 cursor-pointer fa-brands fa-instagram"></i>
+                            <i class="p-2 bg-slate-300 rounded-full mt-2 text-xl px-3 cursor-pointer fa-solid fa-globe"></i>
+                            <i class="p-2 bg-slate-300 rounded-full mt-2 text-xl px-3 cursor-pointer fa-brands fa-twitter"></i>
+                            <i class="p-2 bg-slate-300 rounded-full mt-2 text-xl px-3 cursor-pointer fa-brands fa-youtube"></i>
                         </div>
                     </div>
+                    <div class="flex max-lg:flex-col gap-16">
+                        <div class="flex max-lg:w-4/5  max-lg:mx-auto max-lg:justify-center max-lg:items-center max-lg:text-center gap-10">
+                            <div class="flex flex-col max-lg:mt-4 -mt-2">
+                                <h1 class="text-4xl font-semibold max-lg:text-2xl text-white">Company</h1>
+                                <ul class="flex flex-col max-lg:flex-row max-lg:mt-2 max-lg:gap-2  mt-4 gap-1 text-xl">
+                                    <li><a href="#" class="text-neu max-lg:text-base">About us</a></li>
+                                    <li><a href="#" class="max-lg:text-base text-neu">Blog</a></li>
+                                    <li><a href="#" class="max-lg:text-base text-neu">Contact us</a></li>
+                                    <li><a href="#" class="max-lg:text-base text-neu">Pricing</a></li>
+                                    <li><a href="#" class="max-lg:text-base text-neu">Testimonial</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="flex max-lg:w-aav max-lg:mx-auto max-lg:justify-center max-lg:items-center max-lg:text-center">
+                            <div class="flex flex-col max-lg:-mt-12 -mt-2">
+                                <h1 class="text-4xl font-semibold max-lg:text-2xl text-white">Support</h1>
+                                <ul class="flex flex-col max-lg:flex-row max-lg:mt-2 max-lg:gap-1  mt-4 gap-1 text-xl">
+                                    <li><a href="#" class="text-neu max-lg:text-base">Help center</a></li>
+                                    <li><a href="#" class="max-lg:text-base text-neu">Terms of service</a></li>
+                                    <li><a href="#" class="max-lg:text-base text-neu">Legal</a></li>
+                                    <li><a href="#" class="max-lg:text-base text-neu">Privacy policy</a></li>
+                                    <li><a href="#" class="max-lg:text-base text-neu">Status</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="flex-col flex -mt-2 max-lg:w-4/5 max-lg:mx-auto max-lg:items-center max-lg:justify-center max-lg:mt-4">
+                            <h1 class="text-4xl  max-lg:text-2xl font-semibold text-white">Stay up date</h1>
+                            <input type="email" placeholder="Your email adress" class="mt-6 px-4 bg-graay rounded-xl py-3">
+                        </div>
+                    </div>
+
+
                 </div>
-            </section>
-        </footer>
-    </main>
+            </div>
+            </div>
+        </section>
+    </footer>
 
 </body>
 
